@@ -5,10 +5,10 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const mysql = require("mysql");
 const connection = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "root",
-    database: "cashier",
+    host: "us-cdbr-iron-east-05.cleardb.net",
+    user: "b118d552ca1048",
+    password: "a788fabb",
+    database: "heroku_986afb54c3475af",
     timezone: 'jst'
 });
 
